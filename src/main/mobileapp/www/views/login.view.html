@@ -1,0 +1,71 @@
+<style title="local">
+#crn-container-230311 { 
+  background-color: rgb(11, 27, 79);
+  border-top-left-radius: 69px;
+  border-top-right-radius: 69px;
+}
+
+#crn-heading-355854 { 
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 32px;
+  display: flex;
+  letter-spacing: 0.2px;
+  color: rgb(184, 106, 119);
+}
+
+#crn-button-36141 { 
+  width: 70%;
+  margin-left: 60px;
+}
+
+#crn-button-445347{ 
+  width: 70%;
+}
+
+#crn-button-445347 { 
+  text-align: center;
+}
+</style><ion-view role="region" aria-labelledby="login_page_title" cache-view="false" can-swipe-back="false" class="pane login-bg" data-container="true">
+    <h1 class="sr-only" id="login_page_title">{{"Users.view.Login" | translate}}</h1>
+    <ion-content class="scroll-content center-content-vertically" data-component="crn-ion-content" style="background-color: rgb(255, 255, 255);">
+    <div class="list safe-top" data-container="true">
+      <div class="col text-center">
+        
+      </div>
+    <h1 class="text-center h1 padding-left:2em;" xattr-position="text-center" xattr-type="h1" data-component="crn-heading" id="crn-heading-355854" style="text-align: center;">Bem-vindas!</h1></div><h2 class="text-center" xattr-position="text-center" subtitle-size="font-size: 22px;" style="font-size: 14px;" data-component="crn-label" id="crn-label-805835">Esse app foi desenvolvido por mulheres para mulheres.<p>Para que possamos sair de situações de perigo com agilidade e segurança.</p>
+    </h2>
+    <form class="form-validation" autocomplete="off" name="form" role="form">
+      <input type="hidden" name="csrf_token" value="CIwNZNlR4XbisJF39I8yWnWX9wX4WFoz">
+      <div class="list list-inset login-mobile" data-container="true">
+                <div class="item item-input component-holder" data-component="crn-input-icon" for="crn-input-icon-228215" title="{{'Login.view.Username' | translate}}">
+          <input aria-label="{{'Login.view.Username' | translate}}" autocomplete="username" autocorrect="off" autocapitalize="off" type="text" placeholder="{{'Login.view.Username' | translate}}" ng-model="vars.username" id="crn-input-icon-228215">
+        </div>
+        <div class="item item-input component-holder" data-component="crn-input-icon" for="crn-input-icon37951" title="{{'Login.view.Password' | translate}}">
+          <input aria-label="{{'Login.view.Password' | translate}}" autocomplete="current-password" type="password" placeholder="{{'Login.view.Password' | translate}}" ng-model="vars.password" id="crn-input-icon37951">
+        </div>
+        <div class="item" title="{{'Login.view.Login' | translate}}" for="crn-button-445347">
+          
+        </div>
+        <div class="item" title="{{message.error}}">
+          <div ng-show="message.error" class="help-block" data-container="true">
+            {{message.error}}
+          </div>
+        </div>
+      </div>
+    </form>
+  <div data-component="crn-container" data-replace="false" id="crn-container-230311" style="
+    height: 303px;
+  alling:center;
+  "><button role="button" aria-label="{{'Login.view.Login' | translate}}" class="button component-holder button-full button-light col-xs-12" type="button" ng-click="cronapi.client('js.blockly.auth.Login.login').run(vars.username, vars.password, null)" data-component="crn-button" id="crn-button-445347" xattr-fullsize="button-full" xattr-theme="button-light" ng-disabled="form.$invalid || vm.dataLoading" style="background-color: rgb(244, 200, 201); border-radius: 14px; margin-left: 60px;">
+            <i class=""></i>
+            <span>{{"Login.view.Login" | translate}}</span>
+          </button><button role="button" aria-label="{{'Login.view.Login' | translate}}" class="button component-holder button-full button-light col-xs-12" type="button" ng-click="cronapi.client('js.blockly.auth.Login.login').run(vars.username, vars.password, null)" data-component="crn-button" id="crn-button-36141" xattr-fullsize="button-full" xattr-theme="button-light" ng-disabled="form.$invalid || vm.dataLoading" style="background-color: rgb(244, 200, 201);
+  border-radius: 14px;
+  ">
+            <i class=""></i>
+            <span>{{'Login.view.SignIn' | translate}}</span>
+          </button><div style="height: 100px; width: 48px;" data-component="crn-spacer" id="crn-spacer-764589">&nbsp;</div></div></ion-content>
+</ion-view>

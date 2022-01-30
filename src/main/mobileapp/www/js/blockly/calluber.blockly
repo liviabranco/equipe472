@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly audit="false" bpmnAble="false" formTarget="" resourceType="JS" ruleDescription="calluber" ruleName="calluber" ruleSynchronous="false" ruleTimeout="" ruleType="I" soap="false">
+  <metadata scale="1" scrollx="462.8" scrolly="-72.80000000000001" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <block asynccall="false" colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-350" y="130">
+    <field customattributes="" name="NAME">calluber</field>
+    <comment h="80" pinned="false" w="160">calluber</comment>
+    <statement name="STACK">
+      <block asynccall="false" colour="#846a27" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="P)bV~409shB[C$s]V`o~" multilayer="false" namespace="cronapi.cordova.geolocation.getCurrentPosition" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20Georreferenciamento%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20a%20posi%C3%A7%C3%A3o%20georreferenciada.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Sucesso%20:%20Envio%20de%20comandos%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Erro%20:%20Envio%20de%20comandos%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.cordova.geolocation.getCurrentPosition%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+        <mutation name="{{cronapi.cordova.geolocation.getCurrentPosition}}" return-raw-type="undefined">
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STATEMENTSENDER" name="Sucesso"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STATEMENTSENDER" name="Erro"/>
+        </mutation>
+        <field customattributes="" name="VAR_SENDERARG0">item</field>
+        <field customattributes="" name="VAR_SENDERARG1">item</field>
+        <statement name="ARG0">
+          <block asynccall="false" colour="#355b25" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="Do[xOs8-yh*M7sGVfT:u" multilayer="false" namespace="cronapi.notification.customNotify" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EExibe%20notifica%C3%A7%C3%A3o%20simples%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20exibe%20notifica%C3%A7%C3%A3o%20simples%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Estado%20:%20Texto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Mensagem%20:%20Texto%3C/span%3E%3Cdiv%3E%20Mensagem%20ou%20conte%C3%BAdo%20html%20a%20ser%20exibido%3C/div%3E%3Cspan%3E%20-%20Anima%C3%A7%C3%A3o%20:%20Texto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Posi%C3%A7%C3%A3o%20vertical%20:%20Texto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Posi%C3%A7%C3%A3o%20horizontal%20:%20Texto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Ocultar%20notifica%C3%A7%C3%A3o%20automaticamente%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.notification.customNotify%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+            <mutation name="{{cronapi.notification.customNotify}}" return-raw-type="undefined">
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Estado"/>
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Mensagem"/>
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Animação"/>
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Posição vertical"/>
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Posição horizontal"/>
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Ocultar notificação automaticamente"/>
+            </mutation>
+            <value name="ARG0">
+              <block asynccall="false" colour="#355b25" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="Du@]@Z`{QjxgzB.kQ7-I" origintype="util_dropdown" output="true" type="util_dropdown">
+                <mutation>
+                  <arg name="error" value="Erro"/>
+                  <arg name="success" value="Sucesso"/>
+                  <arg name="warning" value="Aviso"/>
+                  <arg name="info" value="Informação"/>
+                </mutation>
+                <field customattributes="" name="SELECT">error</field>
+              </block>
+            </value>
+            <value name="ARG1">
+              <shadow asynccall="false" colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="raJu,uz^Z~5yJw.9Ih:b" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field customattributes="" name="TEXT">Você chamou um Uber, tarifas variáveis foram aceitas e seu contato de emergencia recebeu uma mensagem.</field>
+              </shadow>
+            </value>
+            <value name="ARG2">
+              <block asynccall="false" colour="#355b25" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="E2*M$dNvt7VVERC@l{j4" origintype="util_dropdown" output="true" type="util_dropdown">
+                <mutation>
+                  <arg name="fade" value="Desaparecer"/>
+                  <arg name="slide" value="Deslizar"/>
+                  <arg name="zoom" value="Zoom"/>
+                </mutation>
+                <field customattributes="" name="SELECT">fade</field>
+              </block>
+            </value>
+            <value name="ARG3">
+              <block asynccall="false" colour="#355b25" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="3uM)Ssnqd!.,#(Y:(PZF" origintype="util_dropdown" output="true" type="util_dropdown">
+                <mutation>
+                  <arg name="top" value="Topo"/>
+                  <arg name="bottom" value="Embaixo"/>
+                </mutation>
+                <field customattributes="" name="SELECT">top</field>
+              </block>
+            </value>
+            <value name="ARG4">
+              <block asynccall="false" colour="#355b25" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="gB6J18[|kYNnE()Hu/NE" origintype="util_dropdown" output="true" type="util_dropdown">
+                <mutation>
+                  <arg name="left" value="Esquerda"/>
+                  <arg name="center" value="Central"/>
+                  <arg name="right" value="Direita"/>
+                </mutation>
+                <field customattributes="" name="SELECT">left</field>
+              </block>
+            </value>
+            <value name="ARG5">
+              <block asynccall="false" colour="#355b25" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="/]96#W:dw?5?nsVs*,2-" origintype="util_dropdown" output="true" type="util_dropdown">
+                <mutation>
+                  <arg name="true" value="Sim"/>
+                  <arg name="false" value="Não"/>
+                </mutation>
+                <field customattributes="" name="SELECT">true</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+</blockly>
