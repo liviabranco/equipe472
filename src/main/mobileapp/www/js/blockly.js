@@ -10,4 +10,4 @@ window.translations.localesRef =  {"pt*":"pt_br","*":"pt_br","en*":"en_us"};
 document.write("<script src='js/blockly/auth/ChangePassword.blockly.js?e3858ce02693c16ac9ca8388ff344acc'></script>");
 document.write("<script src='js/blockly/auth/Home.blockly.js?297084bfe667bd3100b057e45e1c5219'></script>");
 document.write("<script src='js/blockly/auth/Login.blockly.js?cc551bda44726a6090736c4b9f7a9ee1'></script>");
-document.write("<script src='js/blockly/calluber.blockly.js?cfc884eaf864297f01a6345056494e08'></script>");
+document.write("<script src='js/blockly/calluber.blockly.js?404b33dcb23e28cf74addaebd352a05b'></script>");
